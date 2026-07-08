@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="120" viewBox="0 0 240 120">
+  <!-- Seamless Seigaiha (wave scale) pattern — indigo on off-white, flat woodblock style -->
+  <defs>
+    <g id="scale">
+      <circle cx="0" cy="0" r="40" fill="none" stroke="#1a2a3a" stroke-width="4"/>
+      <circle cx="0" cy="0" r="30" fill="none" stroke="#1a2a3a" stroke-width="3"/>
+      <circle cx="0" cy="0" r="20" fill="none" stroke="#1a2a3a" stroke-width="3"/>
+      <circle cx="0" cy="0" r="10" fill="none" stroke="#1a2a3a" stroke-width="3"/>
+    </g>
+  </defs>
+  <rect width="240" height="120" fill="#f5f0e8"/>
+  <g clip-path="none">
+    <!-- Row 1 -->
+    <use href="#scale" x="0"   y="0"/>
+    <use href="#scale" x="60"  y="0"/>
+    <use href="#scale" x="120" y="0"/>
+    <use href="#scale" x="180" y="0"/>
+    <use href="#scale" x="240" y="0"/>
+    <!-- Row 2 offset -->
+    <use href="#scale" x="30"  y="60"/>
+    <use href="#scale" x="90"  y="60"/>
+    <use href="#scale" x="150" y="60"/>
+    <use href="#scale" x="210" y="60"/>
+    <use href="#scale" x="-30" y="60"/>
+    <!-- Row 3 -->
+    <use href="#scale" x="0"   y="120"/>
+    <use href="#scale" x="60"  y="120"/>
+    <use href="#scale" x="120" y="120"/>
+    <use href="#scale" x="180" y="120"/>
+    <use href="#scale" x="240" y="120"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" aria-hidden="true">
+  <!-- flat cherry blossom motif -->
+  <g fill="#e8809b" stroke="#2c2c2c" stroke-width="2.5">
+    <g transform="translate(40,40)">
+      <g id="petal"><path d="M0 -6 C10 -30 -10 -30 0 -6 Z" transform="translate(0,-18) scale(1.4)"/></g>
+      <use href="#petal" transform="rotate(72)"/>
+      <use href="#petal" transform="rotate(144)"/>
+      <use href="#petal" transform="rotate(216)"/>
+      <use href="#petal" transform="rotate(288)"/>
+    </g>
+  </g>
+  <circle cx="40" cy="40" r="6" fill="#c5a059" stroke="#2c2c2c" stroke-width="2.5"/>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="900" viewBox="0 0 800 900" role="img" aria-label="Flat vector illustration of a Japanese calligrapher in a patterned kimono holding an ink brush, with a large red sun and mountain silhouettes">
+  <!-- background -->
+  <rect width="800" height="900" fill="#f3ead6"/>
+  <!-- gold frame band -->
+  <rect x="0" y="0" width="800" height="900" fill="none" stroke="#c5a059" stroke-width="0"/>
+
+  <!-- big red sun -->
+  <circle cx="400" cy="300" r="220" fill="#c41a1a"/>
+  <!-- gold ring -->
+  <circle cx="400" cy="300" r="220" fill="none" stroke="#c5a059" stroke-width="8"/>
+
+  <!-- mountain silhouettes -->
+  <polygon points="0,640 180,470 360,640" fill="#2c2c2c"/>
+  <polygon points="240,640 470,430 700,640" fill="#1a1a1a"/>
+  <polygon points="560,640 720,500 800,590 800,640" fill="#2c2c2c"/>
+  <rect x="0" y="636" width="800" height="12" fill="#c5a059"/>
+
+  <!-- ============ CALLIGRAPHER FIGURE ============ -->
+  <g stroke="#1a1a1a" stroke-width="6" stroke-linejoin="round">
+    <!-- kimono body -->
+    <path d="M300 900 L300 560 Q300 470 400 460 Q500 470 500 560 L500 900 Z" fill="#fbf6ea"/>
+    <!-- left sleeve -->
+    <path d="M300 560 Q210 580 200 720 L280 740 L300 640 Z" fill="#fbf6ea"/>
+    <!-- right sleeve (raised, holding brush) -->
+    <path d="M500 560 Q600 540 620 430 L560 400 L500 620 Z" fill="#fbf6ea"/>
+    <!-- kimono overlap -->
+    <path d="M400 470 L360 900 L440 900 L400 470 Z" fill="#c41a1a"/>
+    <!-- obi sash -->
+    <rect x="300" y="640" width="200" height="46" fill="#1a2a3a"/>
+  </g>
+
+  <!-- geometric floral pattern on kimono -->
+  <g fill="#c5a059">
+    <circle cx="340" cy="740" r="12"/><circle cx="340" cy="740" r="5" fill="#fbf6ea"/>
+    <circle cx="460" cy="780" r="12"/><circle cx="460" cy="780" r="5" fill="#fbf6ea"/>
+    <circle cx="340" cy="840" r="12"/><circle cx="340" cy="840" r="5" fill="#fbf6ea"/>
+    <circle cx="460" cy="870" r="12"/><circle cx="460" cy="870" r="5" fill="#fbf6ea"/>
+    <circle cx="250" cy="700" r="10"/><circle cx="250" cy="700" r="4" fill="#fbf6ea"/>
+    <circle cx="560" cy="480" r="10"/><circle cx="560" cy="480" r="4" fill="#fbf6ea"/>
+  </g>
+  <!-- obi accent -->
+  <rect x="300" y="656" width="200" height="6" fill="#c5a059"/>
+
+  <!-- head -->
+  <circle cx="400" cy="410" r="52" fill="#f0d9b5" stroke="#1a1a1a" stroke-width="6"/>
+  <!-- hair -->
+  <path d="M348 400 Q360 350 400 350 Q440 350 452 400 Q452 372 400 366 Q348 372 348 400 Z" fill="#1a1a1a"/>
+  <path d="M352 396 Q400 344 448 396 L440 380 Q400 356 360 380 Z" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="4"/>
+  <circle cx="428" cy="352" r="16" fill="#1a1a1a"/>
+  <!-- topknot -->
+  <circle cx="400" cy="342" r="14" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="4"/>
+  <!-- calm eyes -->
+  <g stroke="#1a1a1a" stroke-width="5" stroke-linecap="round">
+    <line x1="376" y1="412" x2="392" y2="412"/>
+    <line x1="408" y1="412" x2="424" y2="412"/>
+  </g>
+
+  <!-- ink brush (held in raised right hand) -->
+  <g stroke="#1a1a1a" stroke-width="5" stroke-linecap="round">
+    <line x1="590" y1="300" x2="560" y2="410" stroke="#6b4a2b" stroke-width="12"/>
+    <path d="M556 405 Q548 460 560 500 Q574 460 566 405 Z" fill="#1a1a1a"/>
+  </g>
+  <!-- hand -->
+  <circle cx="562" cy="408" r="20" fill="#f0d9b5" stroke="#1a1a1a" stroke-width="6"/>
+
+  <!-- fresh ink stroke below the brush -->
+  <path d="M540 540 Q560 600 520 650 Q505 610 540 540 Z" fill="#1a1a1a"/>
+</svg>

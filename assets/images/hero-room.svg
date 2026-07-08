@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Flat vector illustration of a traditional Japanese tatami room looking out to a garden with a red torii gate and Mount Fuji">
+  <!-- ============ SKY / GARDEN VIEW (seen through the shoji opening) ============ -->
+  <rect width="1600" height="900" fill="#eae2d2"/>
+  <rect x="360" y="0" width="880" height="640" fill="#f3ede0"/>
+
+  <!-- Big vermilion sun -->
+  <circle cx="800" cy="230" r="150" fill="#c41a1a"/>
+  <circle cx="800" cy="230" r="150" fill="none" stroke="#2c2c2c" stroke-width="6"/>
+
+  <!-- Geometric clouds -->
+  <g fill="#ffffff" stroke="#2c2c2c" stroke-width="5">
+    <path d="M470 150 h120 a26 26 0 0 1 0 52 h-120 a26 26 0 0 1 0-52 z"/>
+    <path d="M1010 110 h150 a24 24 0 0 1 0 48 h-150 a24 24 0 0 1 0-48 z"/>
+    <path d="M1050 200 h90 a20 20 0 0 1 0 40 h-90 a20 20 0 0 1 0-40 z"/>
+  </g>
+
+  <!-- Mount Fuji: overlapping charcoal/indigo triangles with snow cap -->
+  <polygon points="800,300 1010,560 590,560" fill="#1a2a3a"/>
+  <polygon points="800,300 900,424 700,424" fill="#f5f0e8"/>
+  <polygon points="800,300 830,340 770,340" fill="#1a2a3a"/>
+  <polygon points="620,470 700,560 540,560" fill="#243a4f"/>
+
+  <!-- Minimalist pine tree (right) -->
+  <g stroke="#2c2c2c" stroke-width="5">
+    <rect x="1120" y="430" width="20" height="150" fill="#6b4a2b"/>
+    <ellipse cx="1130" cy="410" rx="80" ry="42" fill="#6b8f5e"/>
+    <ellipse cx="1080" cy="450" rx="55" ry="30" fill="#8fc98a"/>
+    <ellipse cx="1180" cy="450" rx="55" ry="30" fill="#8fc98a"/>
+  </g>
+
+  <!-- Red torii gate (left of garden) -->
+  <g fill="#c41a1a" stroke="#2c2c2c" stroke-width="5">
+    <rect x="430" y="330" width="180" height="24"/>
+    <rect x="446" y="360" width="148" height="16"/>
+    <rect x="452" y="354" width="20" height="206"/>
+    <rect x="568" y="354" width="20" height="206"/>
+  </g>
+
+  <!-- Garden ground band -->
+  <rect x="360" y="560" width="880" height="80" fill="#6b8f5e"/>
+  <rect x="360" y="560" width="880" height="80" fill="none" stroke="#2c2c2c" stroke-width="6"/>
+
+  <!-- ============ SHOJI SLIDING DOOR FRAME (foreground) ============ -->
+  <!-- top beam -->
+  <rect x="0" y="0" width="1600" height="70" fill="#8a5a34"/>
+  <rect x="0" y="0" width="1600" height="70" fill="none" stroke="#2c2c2c" stroke-width="6"/>
+  <!-- left panel -->
+  <g>
+    <rect x="0" y="70" width="360" height="640" fill="#f7f3ea"/>
+    <rect x="0" y="70" width="360" height="640" fill="none" stroke="#2c2c2c" stroke-width="6"/>
+    <g stroke="#2c2c2c" stroke-width="4">
+      <line x1="120" y1="70" x2="120" y2="710"/>
+      <line x1="240" y1="70" x2="240" y2="710"/>
+      <line x1="0" y1="230" x2="360" y2="230"/>
+      <line x1="0" y1="390" x2="360" y2="390"/>
+      <line x1="0" y1="550" x2="360" y2="550"/>
+    </g>
+    <!-- wooden pillar edge -->
+    <rect x="360" y="70" width="26" height="640" fill="#8a5a34" stroke="#2c2c2c" stroke-width="6"/>
+  </g>
+  <!-- right panel -->
+  <g>
+    <rect x="1240" y="70" width="360" height="640" fill="#f7f3ea"/>
+    <rect x="1240" y="70" width="360" height="640" fill="none" stroke="#2c2c2c" stroke-width="6"/>
+    <g stroke="#2c2c2c" stroke-width="4">
+      <line x1="1360" y1="70" x2="1360" y2="710"/>
+      <line x1="1480" y1="70" x2="1480" y2="710"/>
+      <line x1="1240" y1="230" x2="1600" y2="230"/>
+      <line x1="1240" y1="390" x2="1600" y2="390"/>
+      <line x1="1240" y1="550" x2="1600" y2="550"/>
+    </g>
+    <rect x="1214" y="70" width="26" height="640" fill="#8a5a34" stroke="#2c2c2c" stroke-width="6"/>
+  </g>
+
+  <!-- tokonoma alcove with hanging scroll (on the left panel) -->
+  <g>
+    <rect x="150" y="150" width="60" height="330" fill="#efe6d5" stroke="#2c2c2c" stroke-width="4"/>
+    <rect x="168" y="170" width="24" height="270" fill="#f5f0e8" stroke="#2c2c2c" stroke-width="3"/>
+    <rect x="162" y="164" width="36" height="10" fill="#c41a1a" stroke="#2c2c2c" stroke-width="3"/>
+    <rect x="162" y="440" width="36" height="10" fill="#c41a1a" stroke="#2c2c2c" stroke-width="3"/>
+    <!-- brushstroke kanji-ish marks -->
+    <g stroke="#2c2c2c" stroke-width="4" stroke-linecap="round">
+      <line x1="174" y1="200" x2="186" y2="200"/>
+      <line x1="180" y1="200" x2="180" y2="240"/>
+      <line x1="172" y1="270" x2="188" y2="270"/>
+      <line x1="172" y1="300" x2="188" y2="300"/>
+      <line x1="180" y1="260" x2="180" y2="315"/>
+    </g>
+  </g>
+
+  <!-- ============ TATAMI FLOOR (foreground band) ============ -->
+  <rect x="0" y="640" width="1600" height="260" fill="#d9c9a3"/>
+  <rect x="0" y="640" width="1600" height="260" fill="none" stroke="#2c2c2c" stroke-width="6"/>
+  <g stroke="#2c2c2c" stroke-width="4">
+    <line x1="0" y1="640" x2="1600" y2="640"/>
+    <line x1="0" y1="770" x2="1600" y2="770"/>
+    <line x1="200" y1="640" x2="200" y2="770"/>
+    <line x1="600" y1="640" x2="600" y2="770"/>
+    <line x1="1000" y1="640" x2="1000" y2="770"/>
+    <line x1="1400" y1="640" x2="1400" y2="770"/>
+    <line x1="400" y1="770" x2="400" y2="900"/>
+    <line x1="800" y1="770" x2="800" y2="900"/>
+    <line x1="1200" y1="770" x2="1200" y2="900"/>
+  </g>
+  <!-- tatami border seams (vermilion accent) -->
+  <g fill="#c41a1a">
+    <rect x="0" y="766" width="1600" height="8"/>
+    <rect x="0" y="636" width="1600" height="8"/>
+  </g>
+</svg>

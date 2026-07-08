@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" role="img" aria-label="Flat vector Japanese landscape: curved bridge over a koi pond with Mount Fuji and cherry blossoms">
+  <rect width="600" height="400" fill="#f3ede0"/>
+  <!-- sky sun -->
+  <circle cx="470" cy="110" r="70" fill="#f6c6d0"/>
+  <!-- Mt Fuji triangles -->
+  <polygon points="300,80 470,300 130,300" fill="#1a2a3a"/>
+  <polygon points="300,80 355,152 245,152" fill="#f5f0e8"/>
+  <polygon points="180,200 250,300 110,300" fill="#2b4257"/>
+  <!-- cherry blossom trees (flat pink dots) -->
+  <g>
+    <rect x="70" y="250" width="10" height="60" fill="#6b4a2b"/>
+    <g fill="#e8809b"><circle cx="75" cy="240" r="30"/><circle cx="50" cy="255" r="20"/><circle cx="100" cy="255" r="20"/><circle cx="75" cy="270" r="18"/></g>
+    <rect x="520" y="250" width="10" height="60" fill="#6b4a2b"/>
+    <g fill="#e8809b"><circle cx="525" cy="245" r="26"/><circle cx="505" cy="260" r="17"/><circle cx="545" cy="260" r="17"/></g>
+  </g>
+  <!-- pond -->
+  <rect x="0" y="300" width="600" height="100" fill="#1a2a3a"/>
+  <!-- geometric ripples -->
+  <g fill="none" stroke="#4a6b8a" stroke-width="3">
+    <circle cx="150" cy="350" r="14"/><circle cx="150" cy="350" r="26"/>
+    <circle cx="420" cy="360" r="12"/><circle cx="420" cy="360" r="22"/>
+  </g>
+  <!-- koi -->
+  <g><ellipse cx="230" cy="345" rx="20" ry="9" fill="#f0862e"/><polygon points="210,345 196,338 196,352" fill="#f0862e"/></g>
+  <g><ellipse cx="360" cy="375" rx="16" ry="7" fill="#f5f0e8"/><polygon points="344,375 332,369 332,381" fill="#f5f0e8"/></g>
+  <!-- curved bridge -->
+  <path d="M40 320 Q300 240 560 320" fill="none" stroke="#c41a1a" stroke-width="14"/>
+  <path d="M40 320 Q300 240 560 320" fill="none" stroke="#2c2c2c" stroke-width="3"/>
+  <g stroke="#c41a1a" stroke-width="8">
+    <line x1="120" y1="300" x2="120" y2="330"/>
+    <line x1="300" y1="262" x2="300" y2="292"/>
+    <line x1="480" y1="300" x2="480" y2="330"/>
+  </g>
+  <rect x="0" y="0" width="600" height="400" fill="none" stroke="#2c2c2c" stroke-width="8"/>
+</svg>
