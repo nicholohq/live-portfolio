@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
   setupHamburger();
   setupSectionAnimations();
   setupScrollReveal();
-  setupRevealButton();
   setupContactForm();
 });
 
@@ -60,18 +59,6 @@ function setupScrollReveal() {
     });
   }, { threshold: 0.15 });
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-}
-
-function setupRevealButton() {
-  const btn = document.getElementById('skillsRevealBtn');
-  const content = document.getElementById('skillsContent');
-  if (!btn || !content) return;
-  btn.addEventListener('click', () => {
-    const wasHidden = content.classList.contains('hidden');
-    content.classList.toggle('hidden');
-    btn.textContent = wasHidden ? 'Slide the Screen Shut' : 'Open the Screen';
-    btn.setAttribute('aria-expanded', String(wasHidden));
-  });
 }
 
 function setupScrollNav() {

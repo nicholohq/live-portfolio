@@ -240,7 +240,6 @@ section.visible { opacity: 1; transform: translateY(0); }
 /* ============ SKILLS ============ */
 #skills { background: var(--linen); }
 .skills-content { max-width: 860px; margin: 2.5rem auto 0; }
-.skills-content.hidden { display: none; }
 .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
 .skill-category {
   background: var(--paper); border: var(--border); padding: 1.3rem;
