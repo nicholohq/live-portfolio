@@ -1,0 +1,9 @@
+# Separate project — has its own git repo / deployment
+todo-app/
+
+# Local sandbox / scratch, not part of the portfolio
+opencode compact/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
