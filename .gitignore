@@ -1,6 +1,9 @@
 # Separate project — has its own git repo / deployment
 todo-app/
 
+# Separate project — kampmalaya.tours (deployed on Vercel separately)
+Kamp Malaya/
+
 # Local sandbox / scratch, not part of the portfolio
 opencode compact/
 
